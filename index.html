@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rechnen lernen</title>
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="tealTheme.css">
+  </head>
+  <body class="w3-khaki w3-center">
+    <header class="w3-container w3-center w3-theme"><h1>Rechnen lernen für Kids</h1></header>
+    <main class="w3-center">
+    	<div class="w3-responsive w3-margin">
+    		<table class="w3-table-all">
+				<tr>  			
+    				<td id="varA" style="font-size: 24px">Variable A</td>
+    				<td style="font-size: 24px">+</td>
+    				<td id="varB" style="font-size: 24px">Variable B</td>
+    				<td style="font-size: 24px">=</td>
+    				<td><input class="w3-input" type="text" id="inputErgebnis" style="font-size: 24px"></td>
+    				<td><button class="w3-button w3-teal" id="btnCheck" style="font-size: 24px">OK</button></td>
+    			</tr>
+    		</table>
+    	</div>
+    	<div class="w3-row w3-margin">
+    		<div class="w3-third w3-container w3-center w3-green">
+				<button id="btnEasy" class="w3-button w3-green" style="width: 100%"><h3>Einfach</h3></button>
+			</div>  
+			<div class="w3-third w3-container w3-center w3-orange">
+				<button id="btnMedium" class="w3-button w3-orange" style="width: 100%"><h3>Mittel</h3></button>
+			</div>
+    		<div class="w3-third w3-container w3-center w3-red">
+				<button id="btnHard" class="w3-button w3-red" style="width: 100%"><h3>Schwierig</h3></button>
+			</div>
+    	</div>
+    </main>
+    <footer class="w3-bottom w3-theme-d4"><button onclick="openFullscreen();">Open Fullscreen</button>
+    	<a class="w3-teal" href="index.html">Home</a>
+    	<button onclick="closeFullscreen();">Close Fullscreen</button>    	
+    	</footer>
+  </body>
+  <script src="js.js"></script>
+</html>
